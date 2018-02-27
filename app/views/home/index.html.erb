@@ -1,0 +1,37 @@
+<div class="container">
+
+	<div class="content">
+		<h1>Restaurant DARRIGADE</h1>
+	</div>
+
+	<div class="tab">
+	  <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
+	  <button class="tablinks" onclick="openTab(event, 'Menu')">Menu</button>
+	  <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+	</div>
+
+<!-- Tab content -->
+	<div id="About" class="tabcontent">
+	  <h3>Ce restaurant est le meilleur du monde !</h3>
+	  <p>La preuve vous êtes dessus</p>
+	</div>
+
+	<div id="Menu" class="tabcontent">
+	  <h3>Menu</h3>
+	  <ul>
+	  	<li>Entrées</li>
+	  	<li>Plats</li>
+	  	<li>Desserts</li>
+	  </ul>
+	</div>
+
+	<div id="Contact" class="tabcontent">
+	  <h3>Contact</h3>
+	  <p>Pour tout contect veuillez vous adresser au maitre d'hotel en claquant des doigts</p>
+	</div>
+</div>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>

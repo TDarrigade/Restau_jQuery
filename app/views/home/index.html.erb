@@ -3,7 +3,27 @@
 	<div class="content">
 		<h1>Restaurant DARRIGADE</h1>
 	</div>
+	 <!-- Slideshow container -->
+	<div id="carrousel">
 
+  <!-- Full-width images with number and caption text -->
+	  	<div id="mySlides fade">
+	    <ul>
+	        <li><img src="https://images.unsplash.com/photo-1517800140676-e7e8312bc02d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=47c418801cb73d527f38c481b73e9733&auto=format&fit=crop&w=2700&q=80" /></li>
+		<li><img src="https://images.unsplash.com/photo-1464219222984-216ebffaaf85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de182c33e4aa019a30bd1976674dfb4f&auto=format&fit=crop&w=2700&q=80" /></li>
+		<li><img src="https://images.unsplash.com/photo-1452968011964-24f8831c43c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=798a25ce5428ac5438ba5c9bf3037134&auto=format&fit=crop&w=2700&q=80" /></li>
+	    </ul>
+	</div>
+
+ 
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<br>
+<div class= "tableau">
 	<div class="tab">
 	  <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About</button>
 	  <button class="tablinks" onclick="openTab(event, 'Menu')">Menu</button>
@@ -18,19 +38,20 @@
 
 	<div id="Menu" class="tabcontent">
 	  <h3>Menu</h3>
-	  <ul>
-	  	<li>Entrées</li>
-	  	<li>Plats</li>
-	  	<li>Desserts</li>
-	  </ul>
+	 
+
+
 	</div>
 
 	<div id="Contact" class="tabcontent">
 	  <h3>Contact</h3>
-	  <p>Pour tout contect veuillez vous adresser au maitre d'hotel en claquant des doigts</p>
+	  <p>Pour tout contact veuillez vous adresser 
+	  au maitre d'hotel en claquant des doigts</p>
 	</div>
 </div>
-
+</div>
+<!-- on inclut la bibliothèque depuis les serveurs de Google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
